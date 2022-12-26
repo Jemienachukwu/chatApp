@@ -3,7 +3,7 @@ import TextMessage from "./TextMessage";
 
 const Messages = () => {
   return (
-    <div>
+    <div className="message">
       <TextMessage />
       <TextMessage />
       <TextMessage />

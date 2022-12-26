@@ -4,7 +4,7 @@ import ChatScreen from "../components/ChatScreen";
 import Sidebar from "../components/Sidebar";
 const Home = () => {
   return (
-    <Container className="shadow rounded my-md-5" id="main">
+    <Container className="shadow rounded my-md-5 " id="main">
       <Row>
         <Col sm={4}>
           <Sidebar />

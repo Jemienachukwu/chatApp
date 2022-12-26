@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 import { AiOutlineSearch } from "react-icons/ai";
 
@@ -6,16 +7,16 @@ const Search = () => {
   const img = { height: "35px", width: "35px", objectFit: "cover" };
 
   return (
-    <div className="border-bottom-1">
-      <div className="border-bottom border-dark my-2">
+    <Container className="border-bottom border-dark">
+      <div className=" my-2">
         <input
           type="search"
           placeholder="find user"
-          className="bg-transparent border-bottom-1 border-0 text-dark p-2 w-90"
+          className="bg-transparent border-bottom-1 border-0 p-2"
           style={{ width: "90%" }}
         />
 
-        <AiOutlineSearch />
+        <AiOutlineSearch style={{ cursor: "pointer" }} />
       </div>
       <div className="mt-3 p-3 d-flex align-items-center " id="message-hover">
         <img
@@ -28,7 +29,7 @@ const Search = () => {
           <span>Jemienachukwu</span>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

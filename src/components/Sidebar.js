@@ -7,7 +7,7 @@ const Sidebar = () => {
   // const [toggle, setToggle] = useState(false);
 
   return (
-    <Row className="bg-white">
+    <Row id="sidebar">
       <Navbars />
       <Search />
       <Chats />
